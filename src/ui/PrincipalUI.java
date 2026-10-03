@@ -128,7 +128,7 @@ public class PrincipalUI extends JFrame {
     private JPanel crearCentro() {
         agregarPanel(new PanelInicio(this), INICIO);
         agregarPanel(new PanelSolicitudes(), SOLICITUDES);
-        agregarPanel(new PanelColas(), COLAS);
+        agregarPanel(new PanelColas(this), COLAS);
         agregarPanel(new PanelDocumentos(), DOCUMENTOS);
         agregarPanel(new PanelEntrevistas(), ENTREVISTAS);
         agregarPanel(new PanelPagos(), PAGOS);
